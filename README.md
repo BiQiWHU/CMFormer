@@ -4,6 +4,11 @@ This is the official implementation of our work entitled as ```Learning Content-
 
 ## Methodology Overview
 
+Recent work has shown that mask-level segmentation Transformer (e.g., Mask2Former) is a scalable learner for domain generalized semantic segmentation. Unfortunately, we empirically observed that, a mask-level representation is better at representing content but more sensitive to style variations; its low-resolution counterpart on the contrary is less capable to represent content but more robust to the style variations.
+
+Overall, the mask representation and its down-sampled counterpart shows complementary properties when handling samples from different domains. Thus, it is natural to jointly
+leverage both mask representation and its down-sampled counterparts, so as to at the same time stabilizing the content and be insensitive to the style variation.
+
 ## Environment Configuration
 
 ## Training on Source Domain
