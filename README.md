@@ -10,6 +10,18 @@ Overall, the mask representation and its down-sampled counterpart shows compleme
 leverage both mask representation and its down-sampled counterparts, so as to at the same time stabilizing the content and be insensitive to the style variation.
 
 ## Environment Configuration
+The development of CMFormer is largely based on Mask2Former [https://bowenc0221.github.io/mask2former/].
+
+```Detectron2``` and ```PyTorch``` are required. Other packages include:
+```
+cython
+scipy
+shapely
+timm
+h5py
+submitit
+scikit-image
+```
 
 ## Training on Source Domain
 An example of training on ```CityScapes``` source domain is given below.
