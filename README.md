@@ -12,6 +12,11 @@ leverage both mask representation and its down-sampled counterparts, so as to at
 ## Environment Configuration
 
 ## Training on Source Domain
+An example of training on CityScapes source domain is given below.
+
+```
+python train_net.py --num-gpus 2 --config-file configs/cityscapes/semantic-segmentation/swin/maskformer2_swin_base_IN21k_384_bs16_90k.yaml
+```
 
 ## Inference on Unseen Target Domains
 
