@@ -14,18 +14,18 @@ The development of CMFormer is largely based on Mask2Former [https://bowenc0221.
 
 ```Detectron2``` and ```PyTorch``` are required. Other packages include:
 ```
-    - "ipython==7.30.1"
-    - "numpy==1.21.4"
-    - "torch==1.8.1"
-    - "torchvision==0.9.1"
-    - "opencv-python==4.5.5.62"
-    - "Shapely==1.8.0"
-    - "h5py==3.6.0"
-    - "scipy==1.7.3"
-    - "submitit==1.4.1"
-    - "scikit-image==0.19.1"
-    - "Cython==0.29.27"
-    - "timm==0.4.12"
+    ipython==7.30.1
+    numpy==1.21.4
+    torch==1.8.1
+    torchvision==0.9.1
+    opencv-python==4.5.5.62
+    Shapely==1.8.0
+    h5py==3.6.0
+    scipy==1.7.3
+    submitit==1.4.1
+    scikit-image==0.19.1
+    Cython==0.29.27
+    timm==0.4.12
 ```
 
 ## Training on Source Domain
