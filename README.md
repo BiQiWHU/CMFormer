@@ -50,11 +50,11 @@ python train_net.py --config-file configs/cityscapes/semantic-segmentation/swin/
 If you find the proposed CMFormer is useful for domain-generalized urban-scene segmentation, please cite our work as follows:
 
 ```BibTeX
-@article{bi2023learning,
+@inproceedings{bi2023learning,
   title={Learning Content-enhanced Mask Transformer for Domain Generalized Urban-Scene Segmentation},
   author={Bi, Qi and You, Shaodi and Gevers, Theo},
-  journal={arXiv preprint arXiv:2307.00371},
-  year={2023}
+  journal={AAAI},
+  year={2024}
 }
 ```
 
