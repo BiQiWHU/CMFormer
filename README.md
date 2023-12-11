@@ -9,6 +9,8 @@ Recent work has shown that mask-level segmentation Transformer (e.g., Mask2Forme
 Overall, the mask representation and its down-sampled counterpart shows complementary properties when handling samples from different domains. Thus, it is natural to jointly
 leverage both mask representation and its down-sampled counterparts, so as to at the same time stabilizing the content and be insensitive to the style variation.
 
+![avatar](/framework.png)
+
 ## Environment Configuration
 The development of CMFormer is largely based on Mask2Former [https://bowenc0221.github.io/mask2former/].
 
